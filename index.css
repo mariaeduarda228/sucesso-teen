@@ -312,6 +312,14 @@ footer .redes {
     color: blue;
 }
 
+.retornar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
 /*Utilitarios */
 
 .mt-1 {
