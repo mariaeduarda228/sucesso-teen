@@ -200,16 +200,6 @@ article p {
     max-width: 30rem;
 }
 
-.conhecimento-1 a {
-    text-decoration: none;
-    color: initial;
-}
-
-.conhecimento-1 a:hover {
-    text-decoration: underline;
-    color: blue;
-}
-
 .conhecimento-2 {
     font-size: 2rem;
     max-width: 30rem;
@@ -409,16 +399,6 @@ footer .redes {
     .conhecimento-1 {
         font-size: 2.5rem;
         max-width: 300rem;
-    }
-    
-    .conhecimento-1 a {
-        text-decoration: none;
-        color: initial;
-    }
-    
-    .conhecimento-1 a:hover {
-        text-decoration: underline;
-        color: blue;
     }
 
     .conhecimento-2 {
