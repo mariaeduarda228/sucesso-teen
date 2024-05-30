@@ -1,0 +1,581 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Righteous', sans-serif;
+}
+
+p {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+:root {
+    --color-primary: #DE9C0D;
+    --color-secudary: #FFA859;
+    --color-black: #000000;
+    --color-white: #ffffff;
+}
+
+body {
+    background: linear-gradient(90deg, #FFF9EA 0%, #FFF2E6 100%);
+    padding: 0 1rem;
+}
+
+.content {
+    flex: 1;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFF8E9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #263138;
+}
+
+.contat {
+    color: #333;
+    text-align: center;
+}
+
+.faq {
+    margin-top: 20px;
+}
+
+.faq .perguntas {
+    text-align: center;
+    color:#000000;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #FFF8E9;
+    box-shadow: 0 0 10px #263138;
+}
+
+.faq-item h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+header,
+.home-section,
+.conhecimento-section,
+.footer {
+    border-color: var(--color-black);
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    padding: 1.25rem;
+}
+
+header img {
+    display: block;
+    margin: -16px 32px;
+    max-width: 70%;
+    margin-bottom: -0.5px;
+    margin-top: 1px;
+}
+
+header nav {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem auto 0;
+}
+
+nav a {
+    color: var(--color-black);
+    font-size: 1.25rem;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+nav a {
+    color: initial;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header nav a:nth-child(2n-1) {
+    text-align: right;
+}
+
+/*
+.button {
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-black);
+    border-radius: 12px;
+    color: var(--color-black);
+    display: block;
+    font-size: 1.25rem;
+    padding: .75rem 1rem;
+    max-width: 14rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-2 {
+    background-color: var(--color-primary);
+    border: 2px solid var(--color-black);
+    border-radius: 12px;
+    color: var(--color-black);
+    display: block;
+    font-size: 1.25rem;
+    padding: 1rem 1rem;
+    max-width: 15rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    transform: translateX(4px);
+}
+*/
+
+.home-section {
+    padding-right: 0;
+    padding-bottom: 8rem;
+}
+
+.home-section img {
+    display: block;
+    margin: 1.25rem 0 0 auto;
+    max-width: 100%;
+}
+
+section p {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+h1 {
+    font-size: 2.4rem;
+    line-height: 115%;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.home-section p {
+    font-size: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.conhecimento-section {
+    padding-bottom: 8rem;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+article img {
+    margin: 0.25rem auto;
+    max-width: 20%;
+}
+
+article strong {
+    font-size: 1.5rem;
+}
+
+article p {
+    font-size: 0.9rem;
+}
+
+.conhecimento-1 {
+    font-size: 2.5rem;
+    max-width: 30rem;
+}
+
+.conhecimento-1 a {
+    text-decoration: none;
+    color: initial;
+}
+
+.conhecimento-1 a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.conhecimento-2 {
+    font-size: 2rem;
+    max-width: 30rem;
+}
+
+.conhecimento-3 {
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 1.5rem;
+    max-width: 100rem;
+}
+    
+.conhecimento-4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    max-width: 100rem;
+}
+
+/*Rodapé */
+
+footer {
+    border-bottom: 0;
+    padding: 1rem 1.25rem 4rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 64px 80px;
+    align-items: baseline;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer nav a {
+    display: block;
+    padding-left: 0;
+}
+
+footer img {
+    display: block;
+    margin: -2px 20px auto;
+    max-width: 70%;
+    margin-bottom: -70px;
+    margin-top: -45px;
+}
+
+footer a,
+footer p {
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    max-width: 350px;
+    text-decoration: none;
+}
+
+footer p {
+    max-width: 350px;
+    text-decoration: none;
+}
+
+footer .text {
+    color: #263138;
+    font-family: 'RocknRoll One', sans-serif;
+    text-decoration: none;
+}
+
+.redes-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.redes-img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+footer .redes-img {
+    margin: 0px 4px 14px -2px;
+    max-width: 20px;
+}
+
+footer .redes {
+    display: inline-flex;
+    align-items: center;
+}
+
+.links a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: initial;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.contatos a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: initial;
+}
+
+.contatos a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.retornar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/*Utilitarios */
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-primary {
+    color: var(--color-secudary);
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Responsividade */
+
+@media screen and (min-width: 40rem) {
+    header nav {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 48rem) {
+    header div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header img {
+        display: block;
+        margin: -71.5px 0 auto;
+        max-width: 20%;
+        margin-bottom: -5rem;
+    }
+
+    header nav,
+    header .button {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 72rem) {
+
+    h1,
+    h2 {
+        font-size: 4rem;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 72rem;
+    }
+
+    .container.row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .conhecimento-1 {
+        font-size: 2.5rem;
+        max-width: 300rem;
+    }
+    
+    .conhecimento-1 a {
+        text-decoration: none;
+        color: initial;
+    }
+    
+    .conhecimento-1 a:hover {
+        text-decoration: underline;
+        color: blue;
+    }
+
+    .conhecimento-2 {
+        font-size: 2rem;
+        max-width: 300rem;
+    }
+
+    .conhecimento-3 {
+        font-family: 'RocknRoll One', sans-serif;
+        font-size: 1.5rem;
+        max-width: 300rem;
+    }
+
+    .conhecimento-3 a {
+        text-decoration: none;
+        color: initial;
+    }
+    
+    .conhecimento-3 a:hover {
+        text-decoration: underline;
+        color: blue;
+    }
+
+    .conhecimento-4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        max-width: 300rem;
+    }
+
+    .container.row-reverse img {
+        margin-right: 10px;
+    }
+
+    .about-column {
+        flex: 3;
+    }
+
+    .about-column p {
+        font-size: 1.2rem;
+        max-width: 19rem;
+    }
+
+    .about-column .links {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .about-column .contatos {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    footer nav {
+        flex: 1;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+        padding: 64px 80px;
+    }
+
+    footer img {
+        display: block;
+        margin: -124.5px 0px auto;
+        max-width: 57%;
+        font-weight: 600;
+        margin-bottom: -119px;
+        margin-top: -101px;
+    }
+
+    footer .text {
+        color: #263138;
+        margin-bottom: 10px;
+        max-width: 315px;
+        text-decoration: none;
+    }
+
+    footer .contatos {
+        color: #263138;
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        margin: 1px auto;
+        margin-bottom: -29px;
+        margin-left: 169px;
+        margin-right: 72px;
+        max-width: 321px;
+        text-decoration: none;
+        flex-wrap: wrap;
+        margin-top: -102px;
+    }
+
+    .footer .links {
+        color: #263138;
+        display: flex;
+        margin-bottom: 48px;
+        margin-left: 8px;
+        max-width: 341px;
+        text-decoration: none;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: -5px;
+    }
+
+    footer,
+    .links,
+    .redes {
+        font-size: 1.5rem;
+    }
+    
+    .links,
+    .contatos p {
+        color: #263138;
+        max-width: 350px;
+        text-decoration: none;
+        font-size: 1.6rem;
+    }
+    
+    .links,
+    .contatos,
+    .redes {
+        font-family: 'Roboto', sans-serif;
+        color: #263138;
+        text-decoration: none;
+    }
+    
+    .redes-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .redes-img {
+        margin: 6.25px 8px auto;
+        max-width: 20%;
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .retornar-topo {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 14px;
+        transition: background-color 0.3s;
+    }
+}
+
+@media screen and (min-width: 80rem) {
+    .container {
+        max-width: 81rem;
+    }
+}
